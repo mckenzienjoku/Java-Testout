@@ -55,12 +55,13 @@ public class Main {
             System.out.println(relax);
             String begining= "Hello \nWorld";
             System.out.println(begining);
-            System.out.println(Math.min(a, x));
-            System.out.println(Math.sqrt(64));
-            System.out.println(Math.abs(-200));
+            System.out.println(Math.min(a, x));        // for finding the lowest value of the two. Th opposite is Math.max, which finds the value of the highest value
+            System.out.println(Math.sqrt(64));          //For finding the square roots of values
+            System.out.println(Math.abs(-200));         //Turns all values whether positive or negative, positive- always
             System.out.println(Math.random());
-            int randomNum= (int)(Math.random()*101);
+            int randomNum= (int)(Math.random()*101);    //will only output a number between one and hundred 
             System.out.println(randomNum);
+
             
     }
 }
